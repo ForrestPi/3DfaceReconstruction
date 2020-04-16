@@ -12,3 +12,10 @@ BFM模型由53490个顶点构成，其shape/texture的数据长度为160470（53
 .h5文件与.mat文件对应关系
 
 [注] .h5文件中的tl数量与.mat数量不同，主成分方差的值也不同，且shape的值是.mat中shape值的0.001倍（见/shape/representer/length-unit）。
+
+* shapeEV：形状方差；
+* shapeMU（160470*1）：平均形状；
+* shapePC：形状的主成分；
+* texEV：纹理方差；
+* texMU：平均纹理
+* texPC：纹理的主成分；
